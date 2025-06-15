@@ -1,19 +1,30 @@
-### [Foobar](https://foobar.com)
+### [grep](https://en.wikipedia.org/wiki/Grep)
 
-#### Install using Git
+#### Set up the theme
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+##### BSD grep
 
-```bash
-git clone https://github.com/dracula/foobar.git
+This is known to apply at least to the following:
+
+- [FreeBSD grep](https://man.freebsd.org/cgi/man.cgi?grep%281%29)
+- [macOS grep](https://ss64.com/mac/grep.html)
+
+Set the `GREP_COLOR` environment variable in your shell and make sure
+it is exported, typically for example:
+
+```shell
+# https://draculatheme.com/grep
+GREP_COLOR="1;38;2;255;85;85"
+export GREP_COLOR
 ```
 
-#### Install manually
+##### [GNU grep](https://www.gnu.org/software/grep/)
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+Set the `GREP_COLORS` environment variable in your shell and make sure
+it is exported, typically for example:
 
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+```shell
+# https://draculatheme.com/grep
+GREP_COLORS="mt=1;38;2;255;85;85:fn=38;2;255;121;198:ln=38;2;80;250;123:bn=38;2;80;250;123:se=38;2;139;233;253"
+export GREP_COLORS
+```
