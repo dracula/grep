@@ -4,22 +4,6 @@
 
 **Important:** The configuration method depends on your grep implementation. Use the appropriate section below based on your system.
 
-##### BSD grep
-
-**Compatible Systems:**
-
-- [FreeBSD grep](https://man.freebsd.org/cgi/man.cgi?grep%281%29);
-- [macOS grep](https://ss64.com/mac/grep.html).
-
-###### Configuration
-
-Add the following to your shell configuration file (`.bashrc`, `.zshrc`, etc.):
-
-```shell
-# Dracula theme for BSD grep - https://draculatheme.com/grep
-export GREP_COLOR="1;38;2;255;85;85"
-```
-
 ##### [GNU grep](https://www.gnu.org/software/grep/)
 
 ###### Configuration
@@ -38,6 +22,22 @@ export GREP_COLORS="mt=1;38;2;255;85;85:fn=38;2;255;121;198:ln=38;2;80;250;123:b
 > - **ln** (line number): Green (`#50fa7b`) - line numbers;
 > - **bn** (byte offset): Green (`#50fa7b`) - byte offsets;
 > - **se** (separator): Cyan (`#8be9fd`) - separators;
+
+##### BSD grep
+
+**Compatible Systems:**
+
+- [FreeBSD grep](https://man.freebsd.org/cgi/man.cgi?grep%281%29);
+- [macOS grep](https://ss64.com/mac/grep.html).
+
+###### Configuration
+
+Add the following to your shell configuration file (`.bashrc`, `.zshrc`, etc.):
+
+```shell
+# Dracula theme for BSD grep - https://draculatheme.com/grep
+export GREP_COLOR="1;38;2;255;85;85"
+```
 
 #### Activating theme
 

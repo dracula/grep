@@ -2,13 +2,13 @@
 
 > A dark theme for [grep](https://en.wikipedia.org/wiki/Grep)
 
-![BSD grep screenshot](screenshot.png "BSD grep")
-
-> BSD grep
-
-![GNU grep screenshot](screenshot-gnu.png "GNU grep")
+![GNU grep screenshot](screenshot.png "GNU grep")
 
 > GNU grep
+
+![BSD grep screenshot](screenshot-bsd.png "BSD grep")
+
+> BSD grep
 
 ## Install
 
